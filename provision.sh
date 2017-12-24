@@ -64,4 +64,8 @@ yum install freetype-devel freetype-freeworld
 cp ${SCRIPT_DIR}/etc/fonts/local.conf /etc/fonts/local.conf
 cp ${SCRIPT_DIR}/etc/bashrc /etc/bashrc
 
+cp ${SCRIPT_DIR}/usr/local/share/games/fortunes/nyTimes /usr/local/share/games/fortunes/
+strfile -c % \
+  /usr/local/share/games/fortunes/nyTimes \
+  /usr/local/share/games/fortunes/nyTimes.dat
 
