@@ -1,0 +1,20 @@
+# System-wide .bashrc file for interactive bash(1) shells.
+
+# Make bash check its window size after a process completes
+shopt -s checkwinsize
+
+[ -r "/etc/bashrc_$TERM_PROGRAM" ] && . "/etc/bashrc_$TERM_PROGRAM"
+
+if [ "$PS1" ]; then
+  source /usr/local/git-core/contrib/completion/git-prompt.sh
+  if [ $UID -eq 0 ]; then
+    PS1='[\[\e[36m\]\u@\h\[\e[m\] \w]$(declare -F __git_ps1 &>/dev/null && __git_ps1 " \[\e[32m\](%s)\[\e[m\]")\\$ '
+  else
+    PS1='[\u@\h \w]$(declare -F __git_ps1 &>/dev/null && __git_ps1 " \[\e[32m\](%s)\[\e[m\]")\\$ '
+  fi
+fi
+
+alias gitgraph="git log --graph --oneline --all --decorate --topo-order"
+
+fortune nyTimes | cowsay
+echo "$(hostname -s)" | figlet
