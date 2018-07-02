@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AutoplayPolicyWhitelistConfigurationUpdateDate</key>
+	<date>2018-05-25T19:40:05Z</date>
+	<key>AutoplayQuirksWhitelistConfigurationUpdateDate</key>
+	<date>2018-05-25T19:40:05Z</date>
+	<key>DefaultBrowserDateOfLastPrompt2</key>
+	<date>2018-05-26T15:26:44Z</date>
+	<key>DefaultBrowserPromptingState2</key>
+	<integer>2</integer>
+	<key>DidAttemptToMigrateExtensionsPlistFromLegacyKeychain</key>
+	<true/>
+	<key>DidClearLegacySpotlightMetadataCaches</key>
+	<true/>
+	<key>DidDisableIndividualExtensionsAfterRemovingOnOffSwitchIfNecessary</key>
+	<true/>
+	<key>DidMigrateDisabledPlugInsInfoToAllPlugInsInfo</key>
+	<true/>
+	<key>DidMigrateNewBookmarkSheetToReadingListDefault</key>
+	<true/>
+	<key>DidMigrateStartPageDefaultSidebarVisibility</key>
+	<true/>
+	<key>DidMigrateTabsToLinksForReaderKey</key>
+	<true/>
+	<key>DidMigrateToCoreSpotlightBasedHistorySearch</key>
+	<true/>
+	<key>DidMigrateToMoreRestrictiveFileURLPolicy</key>
+	<true/>
+	<key>DidMigrateWebKit1Preferences</key>
+	<true/>
+	<key>DidReportHistorySettings</key>
+	<true/>
+	<key>DidUnsubscribeFromRSSFeeds</key>
+	<true/>
+	<key>ExtensionsEnabled</key>
+	<true/>
+	<key>FaviconDatabaseDidEraseLegacyDatabase</key>
+	<true/>
+	<key>LastApplicationCacheMessageTraceTime</key>
+	<real>548970006.47528005</real>
+	<key>LastCloudHistoryConfigurationUpdateTime</key>
+	<date>2018-05-25T19:40:05Z</date>
+	<key>LastExtensionMessageTraceTime</key>
+	<real>548970004.89139497</real>
+	<key>LastOSVersionSafariWasLaunchedOn</key>
+	<string>10.13.4</string>
+	<key>LocalFileRestrictionsEnabled</key>
+	<true/>
+	<key>ManagedPlugInPolicies</key>
+	<dict>
+		<key>com.symantec.NortonInternetSecurityBF</key>
+		<dict>
+			<key>PlugInDisallowPromptBeforeUseDialog</key>
+			<integer>1</integer>
+			<key>PlugInFirstVisitPolicy</key>
+			<string>PlugInPolicyAllowNoSecurityRestrictions</string>
+		</dict>
+	</dict>
+	<key>NSToolbar Configuration BrowserToolbarIdentifier-v2</key>
+	<dict>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>1</integer>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NewestLaunchedSafariVersion</key>
+	<string>605.1.33.1.4</string>
+	<key>OpenWindows</key>
+	<array/>
+	<key>SearchProviderIdentifierMigratedToSystemPreference</key>
+	<true/>
+	<key>SearchProvidersNotAllowedToPromptToBeMadeDefault</key>
+	<dict/>
+	<key>ShowSidebarInTopSites</key>
+	<false/>
+	<key>SkipLoadingExtensionsAtLaunch</key>
+	<true/>
+	<key>SuccessfulLaunchTimestamp</key>
+	<real>549041203.43008399</real>
+	<key>UserStyleSheetEnabled</key>
+	<false/>
+	<key>WebKitRespectStandardStyleKeyEquivalents</key>
+	<true/>
+	<key>com.apple.Safari.ContentPageGroupIdentifier.WebKit2AllowsPictureInPictureMediaPlayback</key>
+	<true/>
+	<key>com.apple.Safari.ContentPageGroupIdentifier.WebKit2ApplePayEnabled</key>
+	<true/>
+	<key>com.apple.Safari.ContentPageGroupIdentifier.WebKit2HiddenPageDOMTimerThrottlingAutoIncreases</key>
+	<true/>
+	<key>com.apple.Safari.ContentPageGroupIdentifier.WebKit2InvisibleAutoplayNotPermitted</key>
+	<true/>
+	<key>com.apple.Safari.ContentPageGroupIdentifier.WebKit2MediaDevicesEnabled</key>
+	<true/>
+	<key>com.apple.Safari.ContentPageGroupIdentifier.WebKit2NeedsStorageAccessFromFileURLsQuirk</key>
+	<false/>
+	<key>com.apple.Safari.ContentPageGroupIdentifier.WebKit2ShouldSuppressTextInputFromEditingDuringProvisionalNavigation</key>
+	<true/>
+</dict>
+</plist>

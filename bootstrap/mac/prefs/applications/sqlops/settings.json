@@ -1,0 +1,68 @@
+{
+    "datasource.connectionGroups": [
+        {
+            "name": "Guidewire",
+            "id": "fc79b766-83b0-4edc-9f43-4ae9206fe230",
+            "parentId": "C777F06B-202E-4480-B475-FA416154D458",
+            "color": "#4452A6",
+            "description": ""
+        },
+        {
+            "name": "ROOT",
+            "id": "C777F06B-202E-4480-B475-FA416154D458",
+            "color": "#4452A6",
+            "description": ""
+        }
+    ],
+    "datasource.connections": [
+        {
+            "options": {
+                "server": "SAE1DGWSQLP23",
+                "database": "PolicyCenter",
+                "authenticationType": "Integrated",
+                "user": "",
+                "password": "",
+                "applicationIntent": "ReadOnly",
+                "asynchronousProcessing": true,
+                "connectTimeout": "15",
+                "connectRetryCount": "1",
+                "connectRetryInterval": "10",
+                "applicationName": "sqlops",
+                "groupId": "fc79b766-83b0-4edc-9f43-4ae9206fe230",
+                "databaseDisplayName": "PolicyCenter"
+            },
+            "groupId": "fc79b766-83b0-4edc-9f43-4ae9206fe230",
+            "providerName": "MSSQL",
+            "savePassword": true,
+            "id": "1b58a3b1-6322-4264-8b04-f8524934cd76"
+        },
+        {
+            "options": {
+                "server": "SAE1EGWSQLP23",
+                "database": "ClaimCenter",
+                "authenticationType": "Integrated",
+                "user": "",
+                "password": "",
+                "applicationIntent": "ReadOnly",
+                "asynchronousProcessing": true,
+                "connectTimeout": "15",
+                "connectRetryCount": "1",
+                "connectRetryInterval": "10",
+                "applicationName": "sqlops",
+                "groupId": "fc79b766-83b0-4edc-9f43-4ae9206fe230",
+                "databaseDisplayName": "ClaimCenter"
+            },
+            "groupId": "fc79b766-83b0-4edc-9f43-4ae9206fe230",
+            "providerName": "MSSQL",
+            "savePassword": true,
+            "id": "ae6f3a62-4c46-4b5e-b34e-88c48066c6ca"
+        }
+    ],
+    "workbench.colorTheme": "Default Dark SQL Operations Studio",
+    "editor.tabSize": 2,
+    "editor.minimap.enabled": true,
+    "editor.rulers": [
+        80
+    ],
+    "editor.acceptSuggestionOnEnter": "off"
+}
