@@ -10,6 +10,7 @@ sudo dnf update -y
 sudo dnf install \
   dkms \
   gcc \
+  gcc-c++ \
   make \
   kernel-devel \
   kernel-headers \
@@ -25,6 +26,7 @@ sudo dnf install \
   cowsay \
   fortune-mod \
   figlet \
+  fail2ban \
   google-chrome-stable \
   python3 \
   python3-devel \
@@ -36,6 +38,28 @@ sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
 sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
 sudo dnf check-update
 sudo dnf install code
+
+
+########################################
+#
+# Service Instantiation
+#
+########################################
+
+systemctl enable firewalld
+systemctl start firewalld
+systemctl enable fail2ban
+systemctl start fail2ban
+
+
+########################################
+#
+# Kill SELinux
+#
+########################################
+
+setenforce 0
+sed -i 's/SELINUX=enabled/SELINUX=disabled/' /etc/selinux/config
 
 
 ########################################

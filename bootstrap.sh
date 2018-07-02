@@ -81,8 +81,8 @@ success "We've guessed that you are running ${DISTRO}."
 info "Installing ${DISTRO}-specific packages..."
 if [ "${DISTRO}" == "darwin" ]; then
   source "${SCRIPT_PATH}"bootstrap/mac/provision_mac.sh
-# elif [ "${DISTRO}" == "centos" ]; then
-#   source "${SCRIPT_PATH}"bootstrap/mac/provision_centos.sh
+elif [ "${DISTRO}" == "centos" ]; then
+  source "${SCRIPT_PATH}"bootstrap/mac/provision_centos.sh
 # elif [ "${DISTRO}" == "redhat" ] || [ "${DISTRO}" == "rhel" ]; then
 #   source "${SCRIPT_PATH}"bootstrap/mac/provision_rhel.sh
 elif [ "${DISTRO}" == "fedora" ]; then
