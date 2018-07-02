@@ -41,7 +41,6 @@ brew install clintmod/formulas/macprefs
 export MACPREFS_BACKUP_DIR="${SCRIPT_PATH}bootstrap/mac/prefs"
 macprefs restore
 
-cask_args appdir: '/Applications'
 brew cask install firefox
 brew cask install google-chrome
 brew cask install visual-studio-code
